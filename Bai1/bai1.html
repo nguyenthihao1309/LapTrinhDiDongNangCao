@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const labelA = document.createElement('span')
+        labelA.innerText = "A"
+        const inputA = document.createElement('input')
+
+
+        const labelB = document.createElement('span')
+        labelB.innerText = "B"
+        const inputB = document.createElement('input')
+
+
+        const button = document.createElement('button')
+        button.innerText = "Submit"
+
+        document.body.appendChild(labelA)
+        document.body.appendChild(inputA)
+        document.body.appendChild(document.createElement('br'))
+        document.body.appendChild(labelB)
+        document.body.appendChild(inputB)
+        document.body.appendChild(document.createElement('br'))
+        document.body.appendChild(button)
+
+        button.style.marginLeft = '120px'
+    </script>
+</body>
+
+</html>
